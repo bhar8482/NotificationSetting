@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NotificationSetting_Example' do
+  pod 'NotificationSetting', :path => '../'
+
+  target 'NotificationSetting_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
