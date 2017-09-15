@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NotificationSetting'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NotificationSetting.'
+  s.summary          = 'Function that requests app user to allow notifications'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This CocoaPod provides the developer the functionailty that allows them to ask the app user for permission on receiving notifications.
                        DESC
 
   s.homepage         = 'https://github.com/bhar8482/NotificationSetting'
