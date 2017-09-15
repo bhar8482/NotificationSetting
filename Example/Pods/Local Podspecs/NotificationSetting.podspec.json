@@ -1,8 +1,8 @@
 {
   "name": "NotificationSetting",
   "version": "0.1.0",
-  "summary": "A short description of NotificationSetting.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Function that requests app user to allow notifications",
+  "description": "This CocoaPod provides the developer the functionailty that allows them to ask the app user for permission on receiving notifications.",
   "homepage": "https://github.com/bhar8482/NotificationSetting",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "NotificationSetting/Classes/**/*"
 }
