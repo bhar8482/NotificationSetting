@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2000B4AE7B114CB45A59523095DB4D7A /* Pods-NotificationSetting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B813525B363F16A8AD72E854AF2A6F98 /* Pods-NotificationSetting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33F74978A841539A1CA038CD18866EBE /* NotificationSetting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF1B2543572CE3BBF4ED35E3704B5E7 /* NotificationSetting-dummy.m */; };
 		39620F798D37DB424EF2CB9D3AC67E66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5C89BC5B9B7E03FD1525B349D7F231B8 /* Pods-NotificationSetting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67522991B96E2EFBF484B917FB5272AF /* Pods-NotificationSetting_Tests-dummy.m */; };
 		7511755C70B88CA067611FC66F429DDC /* Pods-NotificationSetting_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BE2E87D3606C605BA1AE4468E4621E /* Pods-NotificationSetting_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		945164A61F6B56ED00900A0D /* NotificationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945164A51F6B56ED00900A0D /* NotificationSetting.swift */; };
-		B194083E248F1C195D574A7A90F5E993 /* NotificationSetting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3435AEA962128F7DFC025931BA1ECFC5 /* NotificationSetting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80BDB2952DD42696CC049997384F3E69 /* NotificationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8941E68962665C429EB908EAC663EE65 /* NotificationSetting.swift */; };
+		B194083E248F1C195D574A7A90F5E993 /* NotificationSetting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED86BF35F65EC37BB15B6C60DFCADED5 /* NotificationSetting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0AE19607EB90E77A526F5EC1E2F6EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D85E5BC43792C872B556520D8D65DA85 /* NotificationSetting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97412E86EF77D88BE6929CD4C10E328A /* NotificationSetting-dummy.m */; };
 		D95925E676725518DB8FCCEEC0E50F0A /* Pods-NotificationSetting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE534682EC4119EB3658DDB74CB1F86 /* Pods-NotificationSetting_Example-dummy.m */; };
 		EAE1BBB62A8EB975AE52A4C00A81E84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -33,35 +33,35 @@
 		065E0A9FF46F63264D520C8048B5C623 /* Pods-NotificationSetting_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationSetting_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		135D5FBE0F9DBDD38BF6F653CDE26EC3 /* Pods-NotificationSetting_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationSetting_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		13849B093FE5FA937A06C13751A9DB1E /* Pods-NotificationSetting_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationSetting_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BF1B2543572CE3BBF4ED35E3704B5E7 /* NotificationSetting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NotificationSetting-dummy.m"; sourceTree = "<group>"; };
 		21051BF9A592E76C5E390D9A8CC96B50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		215929BB5B83B236C3474919A64E264E /* Pods-NotificationSetting_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationSetting_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27C83E8308AE96F1C4311613EFDFDAFA /* NotificationSetting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotificationSetting.xcconfig; sourceTree = "<group>"; };
 		2ABEF43383E2F88371BDC8DB509B0122 /* Pods-NotificationSetting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationSetting_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2CFFE8D3596AD32744E76EAC410F81C1 /* NotificationSetting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NotificationSetting.modulemap; sourceTree = "<group>"; };
-		3435AEA962128F7DFC025931BA1ECFC5 /* NotificationSetting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationSetting-umbrella.h"; sourceTree = "<group>"; };
 		34C86EB122C78BDD84949D947C7CF2ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38AB3883726E2126F982DF8E48C828F1 /* NotificationSetting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationSetting-prefix.pch"; sourceTree = "<group>"; };
 		3BE534682EC4119EB3658DDB74CB1F86 /* Pods-NotificationSetting_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotificationSetting_Example-dummy.m"; sourceTree = "<group>"; };
 		416745370254EDB08344FEF473D34890 /* Pods-NotificationSetting_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationSetting_Example-resources.sh"; sourceTree = "<group>"; };
-		4BC57ED76AB87D7C3B25396196E960C0 /* Pods_NotificationSetting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationSetting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC57ED76AB87D7C3B25396196E960C0 /* Pods_NotificationSetting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NotificationSetting_Example.framework; path = "Pods-NotificationSetting_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C47F1FD967F980DB0327E3F6F20A17D /* NotificationSetting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NotificationSetting.modulemap; sourceTree = "<group>"; };
 		5665B4B1AFB7F7C7449FED21720CF727 /* Pods-NotificationSetting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationSetting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		57D5329077A05AC3273C8011DB29934A /* Pods-NotificationSetting_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationSetting_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5AB217D631933F51C213216B737E1C5E /* Pods-NotificationSetting_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationSetting_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67522991B96E2EFBF484B917FB5272AF /* Pods-NotificationSetting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotificationSetting_Tests-dummy.m"; sourceTree = "<group>"; };
 		77BE2E87D3606C605BA1AE4468E4621E /* Pods-NotificationSetting_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationSetting_Example-umbrella.h"; sourceTree = "<group>"; };
+		8941E68962665C429EB908EAC663EE65 /* NotificationSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationSetting.swift; sourceTree = "<group>"; };
 		8B544C83A2A1099B86FEA48B47A28F95 /* Pods-NotificationSetting_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationSetting_Tests-resources.sh"; sourceTree = "<group>"; };
 		8CB1A4713A2AA7F276067DF2C51731E5 /* Pods-NotificationSetting_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationSetting_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		945164A51F6B56ED00900A0D /* NotificationSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSetting.swift; sourceTree = "<group>"; };
-		9D63C39B1FC4D38DAE09F0B2E44C77D5 /* Pods-NotificationSetting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NotificationSetting_Tests.modulemap"; sourceTree = "<group>"; };
-		AE8009E45CC536CEEB9D6AC1C260627A /* NotificationSetting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotificationSetting.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97412E86EF77D88BE6929CD4C10E328A /* NotificationSetting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NotificationSetting-dummy.m"; sourceTree = "<group>"; };
+		9D63C39B1FC4D38DAE09F0B2E44C77D5 /* Pods-NotificationSetting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NotificationSetting_Tests.modulemap"; sourceTree = "<group>"; };
 		B06E710452466AE049A8EE5326B20817 /* Pods-NotificationSetting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationSetting_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B07EDB858328D8E53DCACEAE48649975 /* Pods-NotificationSetting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NotificationSetting_Example.modulemap"; sourceTree = "<group>"; };
-		B24A2BCD5C122A45C47F9A25A0AB6CD8 /* Pods_NotificationSetting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationSetting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07EDB858328D8E53DCACEAE48649975 /* Pods-NotificationSetting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NotificationSetting_Example.modulemap"; sourceTree = "<group>"; };
+		B24A2BCD5C122A45C47F9A25A0AB6CD8 /* Pods_NotificationSetting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NotificationSetting_Tests.framework; path = "Pods-NotificationSetting_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B813525B363F16A8AD72E854AF2A6F98 /* Pods-NotificationSetting_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NotificationSetting_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D41ACBE0BFEF2078A5E45ACB56E7EA29 /* NotificationSetting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NotificationSetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF118C17E04D3C2996FF4F68B569443A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41ACBE0BFEF2078A5E45ACB56E7EA29 /* NotificationSetting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NotificationSetting.framework; path = NotificationSetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DF8083CF11425DB209948D0F1AA248 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED86BF35F65EC37BB15B6C60DFCADED5 /* NotificationSetting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationSetting-umbrella.h"; sourceTree = "<group>"; };
+		FDCF08F7C7D3C2C8C7B01DEE75B09BBC /* NotificationSetting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationSetting-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +110,20 @@
 			path = "Target Support Files/Pods-NotificationSetting_Example";
 			sourceTree = "<group>";
 		};
+		5D9257EE2A846CB7EAD074EA680104CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6DF8083CF11425DB209948D0F1AA248 /* Info.plist */,
+				4C47F1FD967F980DB0327E3F6F20A17D /* NotificationSetting.modulemap */,
+				27C83E8308AE96F1C4311613EFDFDAFA /* NotificationSetting.xcconfig */,
+				97412E86EF77D88BE6929CD4C10E328A /* NotificationSetting-dummy.m */,
+				FDCF08F7C7D3C2C8C7B01DEE75B09BBC /* NotificationSetting-prefix.pch */,
+				ED86BF35F65EC37BB15B6C60DFCADED5 /* NotificationSetting-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NotificationSetting";
+			sourceTree = "<group>";
+		};
 		64A33F1509678EC3DDA382AA59502442 /* Pods-NotificationSetting_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,20 +140,6 @@
 			);
 			name = "Pods-NotificationSetting_Tests";
 			path = "Target Support Files/Pods-NotificationSetting_Tests";
-			sourceTree = "<group>";
-		};
-		677E4062BF37E63F48BF076A24D4B5FA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DF118C17E04D3C2996FF4F68B569443A /* Info.plist */,
-				2CFFE8D3596AD32744E76EAC410F81C1 /* NotificationSetting.modulemap */,
-				AE8009E45CC536CEEB9D6AC1C260627A /* NotificationSetting.xcconfig */,
-				1BF1B2543572CE3BBF4ED35E3704B5E7 /* NotificationSetting-dummy.m */,
-				38AB3883726E2126F982DF8E48C828F1 /* NotificationSetting-prefix.pch */,
-				3435AEA962128F7DFC025931BA1ECFC5 /* NotificationSetting-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NotificationSetting";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -163,11 +163,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B6E7E1265CCC48DF29A95006148C85CF /* NotificationSetting */ = {
+		941CA2977010671E52BD2CE808C25960 /* NotificationSetting */ = {
 			isa = PBXGroup;
 			children = (
-				677E4062BF37E63F48BF076A24D4B5FA /* Support Files */,
-				945164A51F6B56ED00900A0D /* NotificationSetting.swift */,
+				8941E68962665C429EB908EAC663EE65 /* NotificationSetting.swift */,
+				5D9257EE2A846CB7EAD074EA680104CE /* Support Files */,
 			);
 			name = NotificationSetting;
 			path = ../..;
@@ -184,7 +184,7 @@
 		CB75F47D0F16E7C83FD902B24287065A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B6E7E1265CCC48DF29A95006148C85CF /* NotificationSetting */,
+				941CA2977010671E52BD2CE808C25960 /* NotificationSetting */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 901435A27A7DE51F15BD1374D6F90F17 /* Build configuration list for PBXNativeTarget "NotificationSetting" */;
 			buildPhases = (
-				61CFC61F13A525EA14115B574E5AA3E3 /* Sources */,
+				5451F6E21A39A1D04D10FF5BDB563439 /* Sources */,
 				315C84D07F963EF4771731DABC5D3A8C /* Frameworks */,
 				B2D9651029FFEDA27BFAE214ED05FE34 /* Headers */,
 			);
@@ -296,11 +296,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					27F951C8A4B761337BBF8692C907D82D = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,12 +333,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CFC61F13A525EA14115B574E5AA3E3 /* Sources */ = {
+		5451F6E21A39A1D04D10FF5BDB563439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33F74978A841539A1CA038CD18866EBE /* NotificationSetting-dummy.m in Sources */,
-				945164A61F6B56ED00900A0D /* NotificationSetting.swift in Sources */,
+				D85E5BC43792C872B556520D8D65DA85 /* NotificationSetting-dummy.m in Sources */,
+				80BDB2952DD42696CC049997384F3E69 /* NotificationSetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,9 +356,8 @@
 /* Begin XCBuildConfiguration section */
 		25B244235DF5FE0839D1F26C8DE9014E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE8009E45CC536CEEB9D6AC1C260627A /* NotificationSetting.xcconfig */;
+			baseConfigurationReference = 27C83E8308AE96F1C4311613EFDFDAFA /* NotificationSetting.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -564,9 +558,8 @@
 		};
 		B371AF8235C5C4622C55E2124EE9903B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE8009E45CC536CEEB9D6AC1C260627A /* NotificationSetting.xcconfig */;
+			baseConfigurationReference = 27C83E8308AE96F1C4311613EFDFDAFA /* NotificationSetting.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

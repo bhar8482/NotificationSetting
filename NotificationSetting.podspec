@@ -30,7 +30,7 @@ This CocoaPod provides the developer the functionailty that allows them to ask t
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NotificationSetting/Classes/**/*'
+  s.source_files = 'NotificationSetting.swift'
   
   # s.resource_bundles = {
   #   'NotificationSetting' => ['NotificationSetting/Assets/*.png']

@@ -9,18 +9,17 @@
 import Foundation
 import UserNotifications
 
-public class NotificationSetting : UITextField {
+public class NotificationSetting : UIView {
     
-    public func askUserPermissionToAllowNotification(){
-        
-        if #available(iOS 10.0, *) {
-            let center = UNUserNotificationCenter.current()
-            center.requestAuthorization(options: [.alert, .sound]) {
-                granted, error in /* do nothing */
+  public class func askUserPermissionToAllowNotification(){
+            if #available(iOS 10.0, *) {
+                let center = UNUserNotificationCenter.current()
+                center.requestAuthorization(options: [.alert, .sound]) {
+                    granted, error in /* do nothing */
+                }
+            }
+            else {
+                // Fallback on earlier versions
             }
         }
-        else {
-            // Fallback on earlier versions
-        }
-    }
 }
